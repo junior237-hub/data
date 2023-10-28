@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site vitrine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+      <nav>
+        <h1>Nguims-Care</h1>
+         <div class="onglets">
+            <a href="">Home</a>
+            <a href="#medecin">nos services </a>
+            <a href="#contact">contact</a>
+          
+         </div>
+      </nav>
+      <header>
+        <h1 class="titre">Mon medecin 237</h1>
+        <h4>Venez rencontrer les professionnels en la matiere </h4>
+        <button>parcourir</button>
+      </header>
+
+      <section class="main" id="medecin">
+         <div class="content">
+            <div class="card">
+                <div class="gauche">
+                  <h1>medecin</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate tempore consequatur tenetur minima optio ab, doloremque aut aperiam! Impedit eius repellendus, qui nihil praesentium quisquam cupiditate laborum nostrum non.</p>
+                </div>
+                <div class="droit">
+               <img src="img/2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="gauche">
+                  <h1>medecin</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate tempore consequatur tenetur minima optio ab, doloremque aut aperiam! Impedit eius repellendus, qui nihil praesentium quisquam cupiditate laborum nostrum non.</p>
+                </div>
+                <div class="droit">
+               <img src="img/2.jpg" alt="">
+                </div>
+            </div>
+            <div class="card">
+                <div class="gauche">
+                  <h1>medecin</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate tempore consequatur tenetur minima optio ab, doloremque aut aperiam! Impedit eius repellendus, qui nihil praesentium quisquam cupiditate laborum nostrum non.</p>
+                </div>
+                <div class="droit">
+               <img src="img/2.jpg" alt="">
+                </div>
+            </div>
+            <div class="card">
+                <div class="gauche">
+                  <h1>medecin</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate tempore consequatur tenetur minima optio ab, doloremque aut aperiam! Impedit eius repellendus, qui nihil praesentium quisquam cupiditate laborum nostrum non.</p>
+                </div>
+                <div class="droit">
+               <img src="img/2.jpg" alt="">
+                </div>
+            </div>
+         </div>
+      </section>
+
+      <footer>
+        <h1>service</h1>
+          <div class="services">
+            <div class="service">
+                 <h3>emmanuel</h3>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi delectus numquam cum quod perferendis aut aperiam accusamus, quam ut aspernatur cupiditate eaque animi saepe ab, corporis atque deleniti sit neque.</p>
+            </div>
+            <div class="service">
+                 <h3>junior</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, suscipit nihil fuga saepe aperiam id, voluptatum ullam esse cumque beatae numquam. Quam ducimus eius architecto debitis fugit reprehenderit impedit magni?</p>
+            </div>
+            <div class="service">
+              <h3>emma</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dolor, beatae fugiat expedita iusto soluta recusandae excepturi accusantium nihil cum enim alias distinctio et! Cum eius et cupiditate distinctio provident.</p>
+            </div>
+          </div>
+          <p id="contact">contact : 698 32 16 92 | &copy; 2023 medecin</p>
+      </footer>
+
+      <script>
+         ScrollReveal({ 
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            display: 400
+         });
+        //   ScrollReveal().reveal(target, options);
+         ScrollReveal().reveal('nav h1', { delay: 500 });
+         ScrollReveal().reveal('.titre', { delay: 500,origin: 'left' });
+         ScrollReveal().reveal('header h4', { delay: 500,origin: 'right' });
+         ScrollReveal().reveal('.card .droit ', { delay: 500,origin: 'bottom' });
+         ScrollReveal().reveal('.gauche ', { delay: 700,origin: 'top' });
+         ScrollReveal().reveal('.services  .service  ', { delay: 700,origin: 'top' ,interval: 200 });
+         ScrollReveal().reveal('.onglets', {rotate: { x: 20, z: 20}});
+
+
+      
+
+
+      </script>
+</body>
+</html>
